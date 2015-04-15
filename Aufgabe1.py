@@ -5,6 +5,7 @@ import Robot
 import World
 
 # Test
+# Test2
 
 # Roboter in einer Welt positionieren:
 myWorld = emptyWorld.buildWorld()
