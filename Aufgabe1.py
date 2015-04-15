@@ -4,9 +4,6 @@ import emptyWorld
 import Robot
 import World
 
-# Test
-# Test2
-
 # Roboter in einer Welt positionieren:
 myWorld = emptyWorld.buildWorld()
 myRobot = Robot.Robot()
@@ -48,7 +45,7 @@ myRobot._k_theta = 0
 #for i in range(40):
 #    myRobot.move([0, pi/2])
 
-curveDrive(0.5, 2.5, -1)
+curveDrive(0.5, 2.5, -5*pi)
 
 # straightDrive(0.5, 5)
 # curveDrive(0.5, 2.5, pi)
